@@ -21,6 +21,7 @@ sudo systemctl start mongod
 RUN
 ==============
 npm i --save
+
 npm start
 
 
