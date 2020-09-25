@@ -18,5 +18,11 @@ sudo systemctl enable mongod
 sudo systemctl start mongod
 ```
 
+RUN
+==============
+npm i --save
+
+npm start
+
 
 
