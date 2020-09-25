@@ -1,18 +1,22 @@
 import React from 'react'
-
-const style = {
-	width: '100%',
-	padding: '25px',
-	textAlign: 'center',
-	color: '#fff',
-	background: 'rgb(9, 95, 234)'
-};
+import Card from 'react-bootstrap/Card'
+import Nav from 'react-bootstrap/Nav'
 
 function Footer() {
     return (
-        <div style = {style}>
-		    This is footer. Empty one.
-	    </div>
+		<Card className="text-center">
+			<Card.Body>
+				<Nav.Link 
+					href="https://tomtomslack.slack.com/archives/C010BSA9LGM"
+				>
+					Need help? Join #panda-retro-board
+				</Nav.Link>
+			</Card.Body>
+			<Card.Footer className="text-muted">
+				
+				{new Date().getFullYear()} Copyright: TomTom N.V. All rights reserved
+			</Card.Footer>
+		</Card>
     )
 }
 
